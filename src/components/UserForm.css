@@ -1,0 +1,97 @@
+/* Container for the form */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Form heading */
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Form field wrapper */
+.field-wrapper {
+  margin-bottom: 15px;
+}
+
+/* Labels for form fields */
+.field-wrapper label {
+  display: block;
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 5px;
+}
+
+/* Text input fields */
+.field-wrapper input[type="text"],
+.field-wrapper input[type="email"],
+.field-wrapper select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Error messages */
+.field-wrapper .error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit button */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional image icon styling */
+.image-icon-wrapper {
+  margin-bottom: 20px;
+}
+
+.image-icon-wrapper img {
+  max-width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Form field for selecting a file (optional) */
+.field-wrapper input[type="file"] {
+  border: none;
+  padding: 0;
+}
+
+/* Link styling for navigation */
+.form-container a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
